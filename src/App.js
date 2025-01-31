@@ -33,7 +33,7 @@ function App() {
             <ul>
                 {taches.map((tache, index) => (
                     <li key={index}>
-                        {tache}
+                        <span>{tache}</span>
                         <button onClick={() => supprimerTache(index)}>Supprimer</button>
                     </li>
                 ))}
@@ -41,4 +41,5 @@ function App() {
         </div>
     );
 }
+
 export default App;

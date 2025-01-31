@@ -21,7 +21,7 @@ function App() {
     return (
         <div>
             <h1>
-                Gestionnaire de Tâches
+                To Do List
             </h1>
             <input
                 type="text"
@@ -43,3 +43,4 @@ function App() {
 }
 
 export default App;
+.
